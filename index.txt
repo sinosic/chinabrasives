@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>华鑫磨料-连云港碳化硅_刚玉_耐火材料_FEPA标准磨料生产厂家</title>
+    <meta name="description" content="华鑫磨料位于连云港，专业生产黑碳化硅、绿碳化硅、碳化硅耐火材料、白刚玉、棕刚玉，符合FEPA标准，严格出厂抽检，高品质磨料、耐火材料供应商。">
+    <meta name="keywords" content="磨料,碳化硅,氧化铝,耐火材料,fepa标准,刚玉,黑碳化硅,绿碳化硅,白刚玉,棕刚玉,连云港磨料,华鑫磨料">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+        body {
+            background-color: #f7f8fa;
+            color: #333;
+            padding-bottom: 20px;
+        }
+        /* 顶部LOGO栏 */
+        .top-bar {
+            background-color: #2c3e50;
+            padding: 12px 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .logo {
+            height: 45px;
+            max-width: 180px;
+        }
+        /* 横幅 */
+        .banner {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+        /* 电商+小程序入口 */
+        .shop-box {
+            background: white;
+            margin: 10px 12px;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .shop-box h3 {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            padding-left: 8px;
+            border-left: 4px solid #409eff;
+        }
+        .shop-list {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .shop-item a {
+            text-decoration: none;
+            color: #333;
+            font-size: 12px;
+        }
+        .shop-icon {
+            width: 45px;
+            height: 45px;
+            background: #f2f3f5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 5px;
+            font-size: 18px;
+            color: #409eff;
+        }
+        /* 微信二维码区域 */
+        .wx-box {
+            background: white;
+            margin: 10px 12px;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .wx-box h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .wx-qrcode {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+            display: block;
+        }
+        .wx-tip {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+        /* 公司介绍 */
+        .company {
+            background: white;
+            margin: 10px 12px;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            line-height: 1.7;
+            font-size: 14px;
+        }
+        .company h2 {
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            border-left: 4px solid #409eff;
+            padding-left: 8px;
+        }
+        /* 产品区域 */
+        .products {
+            margin: 15px 12px 30px;
+        }
+        .products h2 {
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-left: 8px;
+            border-left: 4px solid #409eff;
+        }
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        .product-item {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            text-align: center;
+            padding-bottom: 12px;
+        }
+        .product-item img {
+            width: 100%;
+            height: 110px;
+            object-fit: cover;
+        }
+        .product-item h3 {
+            font-size: 14px;
+            margin: 8px 0;
+            color: #333;
+            font-weight: normal;
+        }
+        .product-btn {
+            display: inline-block;
+            padding: 5px 12px;
+            background: #409eff;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        /* 回到顶部按钮 */
+        #backTop {
+            position: fixed;
+            right: 15px;
+            bottom: 30px;
+            width: 40px;
+            height: 40px;
+            background: #2c3e50;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            cursor: pointer;
+            z-index: 99;
+            border: none;
+        }
+        /* 底部 */
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 15px;
+            margin: 10px 12px 0;
+            border-radius: 12px;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 顶部LOGO -->
+<div class="top-bar">
+    <img src="image/logo.png" alt="华鑫磨料LOGO" class="logo">
+</div>
+
+<!-- 横幅 -->
+<img src="image/app2.png" alt="磨料 碳化硅 刚玉 耐火材料" class="banner">
+
+<!-- 电商平台 + 小程序入口 -->
+<div class="shop-box">
+    <h3>官方选购渠道</h3>
+    <div class="shop-list">
+        <!-- 淘宝 -->
+        <div class="shop-item">
+            <a href="https://www.taobao.com" target="_blank">
+                <div class="shop-icon">淘</div>
+                淘宝店铺
+            </a>
+        </div>
+        <!-- 拼多多 -->
+        <div class="shop-item">
+            <a href="https://www.pinduoduo.com" target="_blank">
+                <div class="shop-icon">拼</div>
+                拼多多
+            </a>
+        </div>
+        <!-- 抖音 -->
+        <div class="shop-item">
+            <a href="https://www.douyin.com" target="_blank">
+                <div class="shop-icon">抖</div>
+                抖音商城
+            </a>
+        </div>
+        <!-- 微信小程序 -->
+        <div class="shop-item">
+            <a href="你的微信小程序链接" target="_blank">
+                <div class="shop-icon">微</div>
+                微信小程序
+            </a>
+        </div>
+        <!-- 可继续添加 -->
+    </div>
+</div>
+
+<!-- 微信二维码 -->
+<div class="wx-box">
+    <h3>微信咨询</h3>
+    <img src="image/sa.png" alt="微信二维码" class="wx-qrcode">
+    <div class="wx-tip">长按扫码添加微信</div>
+</div>
+
+<!-- 公司介绍 -->
+<div class="company">
+    <h2>公司简介</h2>
+    <p>华鑫磨料坐落于优质磨料产业基地——江苏连云港，充分发挥连云港地区磨料原材料与区位优势，专注于高品质磨料、耐火材料的研发与生产。</p>
+    <p>公司拥有多年行业经验与极强的质量管控体系，所有产品出厂前均执行详细抽检流程，严格遵循FEPA标准，确保每一批次产品合格达标，为客户提供稳定优质的工业磨料产品。</p>
+</div>
+
+<!-- 产品中心 → 点击直接跳第三方商城 -->
+<div class="products">
+    <h2>产品中心</h2>
+    <div class="product-list">
+        <!-- 产品1：黑碳化硅 → 填写商品链接 -->
+        <div class="product-item">
+            <img src="image/sa.png" alt="黑碳化硅">
+            <h3>黑碳化硅</h3>
+            <a href="https://你的商城链接/黑碳化硅" class="product-btn" target="_blank">立即购买</a>
+        </div>
+
+        <!-- 产品2：绿碳化硅 -->
+        <div class="product-item">
+            <img src="image/sa2.png" alt="绿碳化硅">
+            <h3>绿碳化硅</h3>
+            <a href="https://你的商城链接/绿碳化硅" class="product-btn" target="_blank">立即购买</a>
+        </div>
+
+        <!-- 产品4：白刚玉 -->
+        <div class="product-item">
+            <img src="image/aa.png" alt="白刚玉">
+            <h3>白刚玉</h3>
+            <a href="https://你的商城链接/白刚玉" class="product-btn" target="_blank">立即购买</a>
+        </div>
+
+        <!-- 产品5：棕刚玉 -->
+        <div class="product-item">
+            <img src="image/ar.png" alt="棕刚玉">
+            <h3>棕刚玉</h3>
+            <a href="https://你的商城链接/棕刚玉" class="product-btn" target="_blank">立即购买</a>
+        </div>
+
+        <!-- 在这里添加新产品 -->
+    </div>
+</div>
+
+<!-- 底部联系方式 -->
+<div class="footer">
+    <p>联系电话：18951252150</p>
+    <p>地址：中国江苏省连云港市海州区 222000</p>
+    <p>© 华鑫磨料 版权所有</p>
+</div>
+
+<!-- 回到顶部按钮 -->
+<button id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+</body>
+</html>
